@@ -97,21 +97,7 @@ get_header(); ?>
         </tr>
       </table></td>
   </tr>
-  <tr>
-    <td bgcolor="#F9EFE0" width="918" height="4"></td>
-  </tr>
-  <tr>
-    <td><table align="left" border="0" cellpadding="0" cellspacing="0" width="918">
-        <tr>
-          <td bgcolor="#7CBA41" width="723" height="13"></td>
-          <td bgcolor="#022C6A" width="195" height="13"></td>
-        </tr>
-      </table></td>
-  </tr>
-  <tr>
-    <td bgcolor="#F9EFE0" width="918" height="1"></td>
-  </tr>
-</table>
+  
 
 <?php
 //get_sidebar();
