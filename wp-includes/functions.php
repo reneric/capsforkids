@@ -358,6 +358,25 @@ function maybe_serialize( $data ) {
  * @param string $content XMLRPC XML Request content
  * @return string Post title
  */
+function subnav(){
+	global $post;
+	if(!is_page('where')):
+		$ishome = (is_front_page()) ? ' home' : '';
+		$page = ($post->post_parent ? $post->post_parent : $post->ID );
+		$subnav = wp_list_pages( array(
+			    'title_li' => '',
+			    'child_of' => $page,
+			    'sort_column' => 'menu_order',
+			    'depth' => '1',
+			    'echo' => 0 )
+			);
+	//echo '<div id="sub" class="subnav'.$ishome.' clearfix">';
+	//echo '<div id="arrow-button"><div id="arrow" class="arrow close"></div></div>';
+	//echo '<span>'.get_the_title().'</span>';
+	echo '<ul class="menu_left clearfix">'.$subnav.'</ul>';
+	//echo '</div>';
+	endif;
+}
 function xmlrpc_getposttitle( $content ) {
 	global $post_default_title;
 	if ( preg_match( '/<title>(.+?)<\/title>/is', $content, $matchtitle ) ) {
