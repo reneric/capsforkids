@@ -85,7 +85,7 @@ if (have_posts()) {
     <td bgcolor="#F9EFE0" width="918" height="3"></td>
   </tr>
   <tr>
-    <td bgcolor="#003A6D" width="918" height="26" align="right" style="padding-right:20px;"><a href="/about-caps" class="mainlevel_top" >About Caps</a><span class="mainlevel_top" >|</span><a href="/press" class="mainlevel_top" >Press</a><span class="mainlevel_top" >|</span><a href="/chapters" class="mainlevel_top" >Chapters</a><span class="mainlevel_top" >|</span><a href="/faq" class="mainlevel_top" >FAQ</a><span class="mainlevel_top" >|</span><a href="/hat-chat" class="mainlevel_top" >Hat Chat</a><span class="mainlevel_top" >|</span><a href="/how-to-help" class="mainlevel_top" >How to Help</a><span class="mainlevel_top" >|</span><a href="/contact" class="mainlevel_top" >Contact</a></td>
+    <td bgcolor="#003A6D" width="918" height="26" align="right" style="padding-right:20px;"><a href="<?php bloginfo('home_url') ?>/about-caps" class="mainlevel_top" >About Caps</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/press" class="mainlevel_top" >Press</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/chapters" class="mainlevel_top" >Chapters</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/faq" class="mainlevel_top" >FAQ</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/hat-chat" class="mainlevel_top" >Hat Chat</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/how-to-help" class="mainlevel_top" >How to Help</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/contact" class="mainlevel_top" >Contact</a></td>
   </tr>
   <tr>
     <td bgcolor="#7CBA41" height="4" border="0"></td>
