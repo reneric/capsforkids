@@ -113,36 +113,6 @@ get_header(); ?>
   </tr>
 </table>
 
-<!-- <div id="main-content" class="main-content">
-
-<?php
-	if ( is_front_page() && twentyfourteen_has_featured_posts() ) {
-		
-		get_template_part( 'featured-content' );
-	}
-?>
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-			<?php
-				
-				while ( have_posts() ) : the_post();
-
-					
-					get_template_part( 'content', 'page' );
-
-					
-					if ( comments_open() || get_comments_number() ) {
-						comments_template();
-					}
-				endwhile;
-			?>
-
-		</div>
-	</div>
-	<?php get_sidebar( 'content' ); ?>
-</div> -->
-
 <?php
 //get_sidebar();
 get_footer();
