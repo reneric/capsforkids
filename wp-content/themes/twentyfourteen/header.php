@@ -85,7 +85,7 @@ if (have_posts()) {
     <td bgcolor="#F9EFE0" width="918" height="3"></td>
   </tr>
   <tr>
-    <td bgcolor="#003A6D" width="918" height="26" align="right" style="padding-right:20px;"><a href="<?php bloginfo('home_url') ?>/about-caps" class="mainlevel_top" >About Caps</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/press" class="mainlevel_top" >Press</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/chapters" class="mainlevel_top" >Chapters</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/faq" class="mainlevel_top" >FAQ</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/hat-chat" class="mainlevel_top" >Hat Chat</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/how-to-help" class="mainlevel_top" >How to Help</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('home_url') ?>/contact" class="mainlevel_top" >Contact</a></td>
+    <td bgcolor="#003A6D" width="918" height="26" align="right" style="padding-right:20px;"><a href="<?php bloginfo('url') ?>/about-caps" class="mainlevel_top" >About Caps</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('url') ?>/press" class="mainlevel_top" >Press</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('url') ?>/chapters" class="mainlevel_top" >Chapters</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('url') ?>/faq" class="mainlevel_top" >FAQ</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('url') ?>/hat-chat" class="mainlevel_top" >Hat Chat</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('url') ?>/how-to-help" class="mainlevel_top" >How to Help</a><span class="mainlevel_top" >|</span><a href="<?php bloginfo('url') ?>/contact" class="mainlevel_top" >Contact</a></td>
   </tr>
   <tr>
     <td bgcolor="#7CBA41" height="4" border="0"></td>
@@ -94,7 +94,7 @@ if (have_posts()) {
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+		<a href="<?php echo esc_url( url( '/' ) ); ?>" rel="home">
 			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
 		</a>
 	</div>
@@ -102,7 +102,7 @@ if (have_posts()) {
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="site-title"><a href="<?php echo esc_url( url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
