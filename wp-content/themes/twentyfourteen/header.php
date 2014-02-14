@@ -67,7 +67,7 @@ if (have_posts()) {
     <td><table align="left" border="0" cellpadding="0" cellspacing="0" width="918">
         <tr>
           <td bgcolor="#F9EFE0" width="5" height="109"></td>
-          <td><a href="/"><img border="0" name="index_r2_c3" src="<?php echo get_template_directory_uri(); ?>/images/index_r2_c3.png" width="569" height="109" id="index_r2_c3" alt="" /></a></td>
+          <td><a href="<?php bloginfo('url'); ?>"><img border="0" name="index_r2_c3" src="<?php echo get_template_directory_uri(); ?>/images/index_r2_c3.png" width="569" height="109" id="index_r2_c3" alt="" /></a></td>
           <td><table align="left" border="0" cellpadding="0" cellspacing="0" width="339">
               <tr>
                 <td bgcolor="#0076BF" width="339" height="61" align="right" style="padding-right:20px;"><span class="top"><a class="top" href="/register-school.html">Cap Day</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="top" href="/our-chapters.html">Find a Chapter</a><a class="top" href="/component/acajoom/Itemid-37.html"></a><br /> <a class="top" href="/press/12-in-the-news.html">Press</a>&nbsp; |&nbsp;&nbsp;<a class="topgreen" href="/online-donation">Donate Now</a></span></td>
